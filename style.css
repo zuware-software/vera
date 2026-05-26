@@ -107,21 +107,24 @@ margin-top:10px;
 }
 
 .bottom-bar{
-position:fixed;
-left:50%;
-bottom:12px;
-transform:translateX(-50%);
-width:calc(100% - 24px);
-max-width:520px;
-padding:14px;
-text-align:center;
-border-radius:999px;
-background:rgba(255,255,255,.85);
-backdrop-filter:blur(20px);
-border:1px solid rgba(255,255,255,.7);
-box-shadow:0 10px 30px rgba(0,0,0,.12);
-color:#222;
-font-size:13px;
+  position:fixed;
+  left:50%;
+  bottom:12px;
+  transform:translateX(-50%);
+  width:calc(100% - 24px);
+  max-width:520px;
+  padding:14px;
+  text-align:center;
+  border-radius:999px;
+
+  background:#111; /* siyah */
+  backdrop-filter:blur(20px);
+
+  border:1px solid rgba(255,255,255,.15);
+  box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+  color:#fff; /* beyaz yazı */
+  font-size:13px;
 }
 
 @keyframes fadeUp{
